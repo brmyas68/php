@@ -1,0 +1,325 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "داشبورد",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboardPage"
+    },
+      {
+          "menuHeader": "پروفایل شرکت"
+      },
+      {
+          "name": "پروفایل شرکت",
+          "icon": "menu-icon tf-icons bx bx-home-smile",
+          "slug": "company",
+          "submenu": [
+              {
+                  "url": "/company/info",
+                  "name": "لیست",
+                  "slug": "company.companyInfo"
+              }
+          ]
+      },
+      {
+          "menuHeader": "شبکه های اجتماعی"
+      },
+      {
+          "name": "شبکه های اجتماعی",
+          "icon": "menu-icon tf-icons bx bxl-instagram",
+          "slug": "socialmedias",
+          "submenu": [
+              {
+                  "url": "/socialmedias/info",
+                  "name": "لیست",
+                  "slug": "socialmedias.SocialMediasInfo"
+              },
+              {
+                  "url": "/socialmedias/create",
+                  "name": "ثبت",
+                  "slug": "socialmedias.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "برچسب ها"
+      },
+      {
+          "name": "برچسب ها",
+          "icon": "menu-icon tf-icons bx bx-tag",
+          "slug": "tags",
+          "submenu": [
+              {
+                  "url": "/tags/info",
+                  "name": "لیست",
+                  "slug": "tags.TagsInfo"
+              },
+              {
+                  "url": "/tags/create",
+                  "name": "ثبت",
+                  "slug": "tags.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "کارفرمایان"
+      },
+      {
+          "name": "کارفرمایان",
+          "icon": "menu-icon tf-icons bx bxs-user-pin",
+          "slug": "clients",
+          "submenu": [
+              {
+                  "url": "/clients/info",
+                  "name": "لیست",
+                  "slug": "clients.ClientsInfo"
+              },
+              {
+                  "url": "/clients/create",
+                  "name": "ثبت",
+                  "slug": "clients.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "پیمانکاران"
+      },
+      {
+          "name": "پیمانکاران",
+          "icon": "menu-icon tf-icons bx bx-user-pin",
+          "slug": "contractors",
+          "submenu": [
+              {
+                  "url": "/contractors/info",
+                  "name": "لیست",
+                  "slug": "contractors.ContractorsInfo"
+              },
+              {
+                  "url": "/contractors/create",
+                  "name": "ثبت",
+                  "slug": "contractors.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "سمت های اجرایی"
+      },
+      {
+          "name": "سمت های اجرایی",
+          "icon": "menu-icon tf-icons bx bx-sitemap",
+          "slug": "positions",
+          "submenu": [
+              {
+                  "url": "/positions/info",
+                  "name": "لیست",
+                  "slug": "positions.PositionsInfo"
+              },
+              {
+                  "url": "/positions/create",
+                  "name": "ثبت",
+                  "slug": "positions.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "ویژگی های شرکت"
+      },
+      {
+          "name": "ویژگی های شرکت",
+          "icon": "menu-icon tf-icons bx bx-info-circle",
+          "slug": "attributes",
+          "submenu": [
+              {
+                  "url": "/attributes/info",
+                  "name": "لیست",
+                  "slug": "attributes.AttributesInfo"
+              },
+              {
+                  "url": "/attributes/create",
+                  "name": "ثبت",
+                  "slug": "attributes.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "خدمات"
+      },
+      {
+          "name": "خدمات",
+          "icon": "menu-icon tf-icons bx bx-list-ol",
+          "slug": "services",
+          "submenu": [
+              {
+                  "url": "/services/info",
+                  "name": "لیست",
+                  "slug": "services.ServicesInfo"
+              },
+              {
+                  "url": "/services/create",
+                  "name": "ثبت",
+                  "slug": "services.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "روز و ساعت کاری شرکت"
+      },
+      {
+          "name": "روز و ساعت کاری شرکت",
+          "icon": "menu-icon tf-icons bx bx-time",
+          "slug": "dayshours",
+          "submenu": [
+              {
+                  "url": "/dayshours/info",
+                  "name": "لیست",
+                  "slug": "dayshours.DaysHoursInfo"
+              }
+          ]
+      },
+      {
+          "menuHeader": "تیم ما"
+      },
+      {
+          "name": "تیم ما",
+          "icon": "menu-icon tf-icons bx bx-group",
+          "slug": "teams",
+          "submenu": [
+              {
+                  "url": "/teams/info",
+                  "name": "لیست",
+                  "slug": "teams.TeamsInfo"
+              },
+              {
+                  "url": "/teams/create",
+                  "name": "ثبت",
+                  "slug": "teams.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "دسته بندی"
+      },
+      {
+          "name": "دسته بندی",
+          "icon": "menu-icon tf-icons bx bx-category",
+          "slug": "categories",
+          "submenu": [
+              {
+                  "url": "/categories/info",
+                  "name": "لیست",
+                  "slug": "categories.CategoriesInfo"
+              },
+              {
+                  "url": "/categories/create",
+                  "name": "ثبت",
+                  "slug": "categories.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "پیام ها"
+      },
+      {
+          "name": "پیام ها",
+          "icon": "menu-icon tf-icons bx bx-envelope",
+          "slug": "messages",
+          "submenu": [
+              {
+                  "url": "/messages",
+                  "name": "لیست",
+                  "slug": "messages.index"
+              }
+          ]
+      },
+      {
+          "menuHeader": "نظرات"
+      },
+      {
+          "name": "نظرات",
+          "icon": "menu-icon tf-icons bx bx-comment-detail",
+          "slug": "comments",
+          "submenu": [
+              {
+                  "url": "/comments",
+                  "name": "لیست",
+                  "slug": "comments.index"
+              }
+          ]
+      },
+      {
+          "menuHeader": "وبلاگ"
+      },
+      {
+          "name": "وبلاگ",
+          "icon": "menu-icon tf-icons bx bx-tv",
+          "slug": "blogs",
+          "submenu": [
+              {
+                  "url": "/blogs/info",
+                  "name": "لیست",
+                  "slug": "blogs.BlogsInfo"
+              },
+              {
+                  "url": "/blogs/create",
+                  "name": "ثبت",
+                  "slug": "blogs.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "پروژه ها"
+      },
+      {
+          "name": "پروژه ها",
+          "icon": "menu-icon tf-icons bx bx-dollar",
+          "slug": "projects",
+          "submenu": [
+              {
+                  "url": "/projects/info",
+                  "name": "لیست",
+                  "slug": "projects.ProjectsInfo"
+              },
+              {
+                  "url": "/projects/create",
+                  "name": "ثبت",
+                  "slug": "projects.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "اسلایدر"
+      },
+      {
+          "name": "اسلایدر",
+          "icon": "menu-icon tf-icons bx bx-slider",
+          "slug": "sliders",
+          "submenu": [
+              {
+                  "url": "/sliders/info",
+                  "name": "لیست",
+                  "slug": "sliders.SlidesInfo"
+              },
+              {
+                  "url": "/sliders/create",
+                  "name": "ثبت",
+                  "slug": "sliders.store"
+              }
+          ]
+      },
+      {
+          "menuHeader": "رزومه ها"
+      },
+      {
+          "name": "رزومه ها",
+          "icon": "menu-icon tf-icons bx bx-spreadsheet",
+          "slug": "resumes",
+          "submenu": [
+              {
+                  "url": "/resumes/info",
+                  "name": "لیست",
+                  "slug": "resumes.ResumesInfo"
+              }
+          ]
+      }
+  ]
+}
